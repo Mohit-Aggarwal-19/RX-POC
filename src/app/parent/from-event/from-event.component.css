@@ -1,0 +1,21 @@
+.container{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border: 1px ridge grey;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 21px;
+    text-align: center;
+    width: 100%;
+  }
