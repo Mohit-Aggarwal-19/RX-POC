@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* border:1px solid; */
+    max-width: 85%;
+    position: relative;
+    left:5%;
+    top:5%;
+}
+
+.information-section{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.example-card {
+    width: 35%;
+    margin-bottom: 8px;
+  }

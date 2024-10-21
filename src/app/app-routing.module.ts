@@ -5,6 +5,8 @@ import { OfOperatorComponent } from './parent/of-operator/of-operator.component'
 import { FromComponent } from './parent/from/from.component';
 import { FromEventComponent } from './parent/from-event/from-event.component';
 import { IntervalAndTimerComponent } from './parent/interval-and-timer/interval-and-timer.component';
+import { ConcatComponent } from './parent/concat/concat.component';
+import { MergeComponent } from './parent/merge/merge.component';
 
 const routes: Routes = [
   {
@@ -28,6 +30,14 @@ const routes: Routes = [
     {
       path: 'interval-and-timer',
       component: IntervalAndTimerComponent,
+    },
+    {
+      path: 'concat',
+      component: ConcatComponent,
+    },
+    {
+      path: 'merge',
+      component: MergeComponent,
     }
   ]
   },

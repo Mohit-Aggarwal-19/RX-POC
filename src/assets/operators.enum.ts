@@ -3,5 +3,7 @@ export enum operators{
     FROM = "from",
     FROMEVENT = "fromEvent",
     INTERVAL = "interval",
-    TIMER = "timer"
+    TIMER = "timer",
+    MERGE = 'merge',
+    CONCAT = 'concat'
 }

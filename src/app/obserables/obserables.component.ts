@@ -31,10 +31,24 @@ export class ObserablesComponent {
         this.router.navigate(['from-event'], { relativeTo: this.route });
         break;
       case operators.INTERVAL:
-        this.router.navigate(['interval-and-timer'], { relativeTo: this.route });
+        this.router.navigate(['interval-and-timer'], {
+          relativeTo: this.route,
+        });
         break;
       case operators.TIMER:
-        this.router.navigate(['interval-and-timer'], { relativeTo: this.route });
+        this.router.navigate(['interval-and-timer'], {
+          relativeTo: this.route,
+        });
+        break;
+      case operators.MERGE:
+        this.router.navigate(['merge'], {
+          relativeTo: this.route,
+        });
+        break;
+      case operators.CONCAT:
+        this.router.navigate(['concat'], {
+          relativeTo: this.route,
+        });
         break;
     }
   }
