@@ -1,5 +1,7 @@
 export enum operators{
     OF = "of",
     FROM = "from",
-    FROMEVENT = "fromEvent"
+    FROMEVENT = "fromEvent",
+    INTERVAL = "interval",
+    TIMER = "timer"
 }

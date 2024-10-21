@@ -1,0 +1,14 @@
+.main-section {
+    display: flex;
+    flex-direction: column;  /* Stacks subsections vertically */
+    gap: 20px;
+    position: relative;
+    left:5%;
+    top:5%;
+    max-width: 85%;               /* Optional: Space between subsections */
+  }
+  
+  .subsection {
+    padding: 10px;
+    border:1px solid #f0f0f0;
+  }

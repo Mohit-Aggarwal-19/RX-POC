@@ -9,13 +9,15 @@ import { ObserablesComponent } from './obserables/obserables.component';
 import { OfOperatorComponent } from './parent/of-operator/of-operator.component';
 import { FromComponent } from './parent/from/from.component';
 import { FromEventComponent } from './parent/from-event/from-event.component';
+import { IntervalAndTimerComponent } from './parent/interval-and-timer/interval-and-timer.component';
 @NgModule({
   declarations: [
     AppComponent,
     ObserablesComponent,
     OfOperatorComponent,
     FromComponent,
-    FromEventComponent
+    FromEventComponent,
+    IntervalAndTimerComponent
   ],
   imports: [
     BrowserModule,
